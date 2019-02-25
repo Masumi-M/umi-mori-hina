@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+/* Fonts */
+* {
+    font-family: 'TsukuBRdGothic-Regular', 'ヒラギノ角ゴシック', 'Hiragino Sans', 'メイリオ', Meiryo, 'Apple Chancery', sans-serif;
+}
+
+/* Background-Color */
+#MainBody {
+    background: lightskyblue;
+}
+
+
+.hidden.menu,
+.ui.container .toc.item {
+    display: none;
+}
+
+.ui.container #LeftNav i,
+.ui.container #RightNav i,
+.ui.container #LeftNav .header.logo {
+    font-size: 1.3rem;
+}
+
+#LeftNav {
+    position: fixed;
+    z-index: 100;
+    margin-top: 0.8rem;
+}
+
+#LeftNav .header.item.mainbarLogo {
+    margin: 0;
+    padding-left: 1rem;
+    text-align: center;
+    font-size: 2rem;
+}
+
+#LeftNav .header.item.mainbarLogo .ui.image {
+    width: 2.5rem;
+    margin-right: 0.2rem;
+}
+
+#RightNav {
+    position: fixed;
+    z-index: 100;
+    margin: 13px;
+    margin-top: 2.8rem;
+    right: 3%;
+}
+
+#RightNav .ui.dropdown.item {
+    margin-right: 1rem;
+}
+
+#RightNav .ui.dropdown.item .menu {
+    margin-top: 1rem;
+}
+
+.ui.footer {
+    padding: 2rem 0;
+}
+
+.ui.card.notification {
+    width: 60%;
+    margin: 7rem auto;
+    -webkit-box-shadow: 0 1rem 3rem rgba(99, 98, 98, 0.473);
+    box-shadow: 0 1rem 3rem rgba(99, 98, 98, 0.473);
+}
+
+.ui.card.notification .header {
+    width: 90%;
+    padding: 0.8rem;
+    margin: 2rem auto 1rem auto;
+    text-align: center;
+    border-bottom: solid 0.25rem rgba(133, 133, 133, 0.3);
+}
+
+.ui.card.notification .meta {
+    margin: 1rem;
+    text-align: right;
+}
+
+.ui.card.notification .meta .paragraph {
+    text-align: center;
+    width: 100%;
+    margin: 0.5rem;
+    color: #333;
+}
+
+.ui.card.notification .meta a {
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 900px) {
+
+    .secondary.menu .item.PCMenu,
+    .secondary.menu .menu,
+    #RightNav #bigFlag {
+        display: none;
+    }
+
+    #RightNav {
+        margin-top: 2.4rem;
+    }
+
+    .ui.container .toc.item {
+        display: inline-block;
+    }
+
+    #LeftNav .header.item.mainbarLogo {
+        margin: 0;
+        padding-left: 0;
+        text-align: center;
+        font-size: 1.3rem;
+    }
+
+    #LeftNav .header.item.mainbarLogo .ui.image {
+        width: 2.5rem;
+        margin-right: 0.2rem;
+    }
+
+    .ui.vertical.green.sidebar.menu .header.item.sidebarLogo {
+        margin: 1rem 0.5rem;
+        background-color: rgba(230, 230, 230, 0.2);
+        -webkit-box-shadow: 0 1px 3px #ddd;
+        box-shadow: 0 1px 3px #ddd;
+        text-align: center;
+        font-size: 2rem;
+    }
+
+    .ui.vertical.green.sidebar.menu .header.item.sidebarLogo .ui.image {
+        width: 2.5rem;
+        margin-right: 0.2rem;
+    }
+}
