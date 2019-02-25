@@ -1,5 +1,5 @@
 # umi-mori-hinaについて
-(Semantic-UI)[https://semantic-ui.com/]を用いて、作成したレスポンシブ雛形です。
+<a href="https://semantic-ui.com/" target="_blank">Semantic-UI</a>を用いて、作成したレスポンシブ雛形です。
 
 ## サンプル / Sample
 https://www.umi-mori.jp/article/html/hinagataHTML/index.html
